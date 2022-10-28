@@ -1,30 +1,36 @@
-.header1{
-    background-color: black;
-    /* height: 15px; */
-}
 .header2{
     background-color: black;
     height: fit-content ;
 }
-
+.nav-item {
+    margin-left: 0;
+}
+body div , section{
+    overflow-x: hidden;
+}
 .navbar-brand{
     position: absolute;
-
-    margin-left: 45%;
+    /* margin-left: 45%; */
     top: 0;
+    left: 45%;
     width: 100px;
-    /* margin-bottom: 5%; */
 }
-
+@media screen and (max-width:500px) {
+    .navbar-brand{
+        position: absolute;
+        /* margin-left: 45%; */
+        top: 0;
+        left: 38%;
+        width: 100px;
+    }
+}
 .img3{
     height: 700px;
     background-color: black;
 }
 .img-p{
-
     position: absolute;
     top: 60%;
-
 }
 input{
     background-color: #141414;
@@ -48,15 +54,14 @@ text-align: center;
     height: 52px;
     line-height: 34px;
     letter-spacing: 0;
-
 }
 .feat-collec{
-    height: 300px;
+    height: 30%;
     background-color: black;
 
 }
 .feat-h1{
-/* margin-top: 5%; */
+
 padding-top: 3%;
 font-weight: 300;
 }
@@ -64,7 +69,6 @@ font-weight: 300;
     margin-top: 3%;
     font-size: 23px;
     font-weight: 300;
-
 }
 .feat-btn{
    font-size: 17px;
@@ -81,16 +85,12 @@ font-weight: 300;
    margin-bottom: 5%;
 }
  .cards-ds{
-    /* height: fit-content; */
   background-color: black;
-
 } 
-
-.dsimg1{
-/* object-fit: contain; */
-
+.dsp-h{
+    font-size: 25px;
+    font-weight: 100;
 }
-
 .watch-h1{
     margin-top: 5%;
 }
@@ -105,45 +105,26 @@ font-weight: 300;
     height: min-content;
 
 }
-
-
-
-/* @media screen and(max-width:767px) {
-    .img-p{
-     font-size:30px ;
-     position: absolute;
-     top: 60%;   
-    }
-    
-} */
 .card{
 height: fit-content;
     border: none;
-
 }
-
 .utube{
-
     margin-top: 20%;
  height: 10%;
  width: 100%;
 }
-
 .bridge-1{
     margin-top: 5% !important;
     background-color:white ;
     height: 60%;
     width: 100%;
 }
-
 .feat-sty{
-
     height: 400px;
-    background-color: black;
-   
+    background-color: black; 
 }
 .feats-h1{
-    /* margin-top: 5%; */
     padding-top: 8%;
     font-weight: 300;
     }
@@ -166,15 +147,8 @@ height: fit-content;
    background-color: #fff; 
    letter-spacing: 0;
     }
-
-
 .br1-img{
     display: inline-block;
-
-}
-
-.br1-txt{
-/* display: inline-block; */
 }
 .headtitle{
     margin-top: 8%;
@@ -194,7 +168,6 @@ height: fit-content;
     margin-left: 8%;
     margin-top: 5% !important;
 }
-
 .bridge-2{
     margin-top: 5% !important;
     background-color:white ;
@@ -202,21 +175,15 @@ height: fit-content;
     width: 100%;
     margin-bottom: 5% !important;
 }
-
 .br2-img{
     display: inline-block;
-
 }
-
 .br2-txt{
 display: inline-block;
 }
-
-
 .pioneer{
     height: 40%;
     background-color: white;
-
 }
 .pioneer-text1{
     font-size: 24px !important;
@@ -242,7 +209,6 @@ font-weight: lighter;
 margin-left: 18%;
 margin-right: 18%;
 }
-
 .pioneer-btn{
     font-size: 17px;
 font-weight: 200;
@@ -272,9 +238,7 @@ color: #fff;
     text-align: center;
     margin-top: 8%;
     margin-bottom: 80px;
-    /* margin-left: 5%; */
 }
-
 .css-p{
     font-size: 20px;
     line-height: 32px;
@@ -313,7 +277,6 @@ color: #fff;
     text-align: center;
     font-weight: lighter;
 }
-
 .csp-btn{
     margin-top: 32%;
     font-size: 17px;
@@ -329,25 +292,17 @@ color: #fff;
     color: #fff;
 }
 footer{
-
     height: 70%;
     background-color: #141414;
 }
 .footer1{
     margin-top: 5%;
-}
-.footer2{
-
-    margin-top: 5%;
-    display: none;
-    height: 900px;
+    height: 70%;
 }
 .uli{
     margin-top: 5%;
-    font-weight: 100;
-    /* margin-left: 2%; */
+    font-weight: lighter;
     list-style: none;
-
 }
 li{
     margin-left: 5%;
@@ -357,25 +312,14 @@ li{
     margin-bottom: 5%;
 }
 .uli h5{
-    font-weight: 100;
+    font-weight: 200;
 }
 .nav-item-f{
     margin-top: 8%;
     width: 100%;
-
 }
 .dropdown-menu{
     width: 100%;
-    background-color: black;
-    
+    background-color: black; 
 }
 
-@media screen and (min-width:750px) {
-    .footer1{
-        display: none;
-
-    }
-    .footer2{
-        display: inline;
-    }
-}
