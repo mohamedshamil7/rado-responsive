@@ -5,8 +5,9 @@
 .nav-item {
     margin-left: 0;
 }
-body div , section{
+body div , section {
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .navbar-brand{
     position: absolute;
